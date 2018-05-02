@@ -18,7 +18,7 @@ function myTweets() {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-        for (var i = 0; 0 < tweets.length; i++) {
+        for (var i = 0; i < tweets.length; i++) {
         console.log(tweets[i].created_at);
         console.log(tweets[i].text);
         console.log("---------------------");
